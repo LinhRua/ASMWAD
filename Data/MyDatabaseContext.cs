@@ -8,6 +8,11 @@ namespace ASMWAD.Data
 {
     public class MyDatabaseContext
     {
+        public static implicit operator MyDatabaseContext(MyDbContext v)
+        {
+            throw new NotImplementedException();
+        }
+
         public class MyDbContext : DbContext
         {
             public MyDbContext() : base("name=MyConnectionString")
