@@ -82,3 +82,5 @@ C:\Users\Linh Rua\source\repos\ASMWAD\ASMWAD\obj\Debug\ASMWAD.dll
 C:\Users\Linh Rua\source\repos\ASMWAD\ASMWAD\obj\Debug\ASMWAD.pdb
 C:\Users\Linh Rua\source\repos\ASMWAD\ASMWAD\obj\Debug\ASMWAD.Migrations.ShoppingCreateTable.resources
 C:\Users\Linh Rua\source\repos\ASMWAD\ASMWAD\obj\Debug\ASMWAD.csproj.GenerateResource.cache
+C:\Users\Linh Rua\source\repos\ASMWAD\ASMWAD\obj\Debug\ASMWAD.Resource.Language .vn-Vn.resources
+C:\Users\Linh Rua\source\repos\ASMWAD\ASMWAD\obj\Debug\ASMWAD.Resource.Language.resources

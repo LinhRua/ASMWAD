@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Globalization;
 using System.Linq;
 using System.Net;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using ASMWAD.Data;
@@ -18,6 +20,10 @@ namespace ASMWAD.Controllers
         // GET: Products
         public ActionResult Index()
         {
+            var cultureInfo = new CultureInfo("vi-VN");
+
+            Thread.CurrentThread.CurrentUICulture = cultureInfo;
+            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(cultureInfo.Name);
             return View(db.Products.ToList());
         }
 

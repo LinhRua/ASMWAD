@@ -215,7 +215,7 @@
       <DependentUpon>202003191330514_ShoppingCreateTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource\Language .vn-Vn.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Language .vn-Vn.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource\Language.resx">
